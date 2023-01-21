@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+    color: cyan;
+    font-weight: bolder;
+    font-size: 44px;
+}
+label {
+    color: goldenrod;    
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#password{
+    color: goldenrod;
+}
+.labelText{
+    color: goldenrod;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    font-family: sans-serif;
+    border: 2px solid cyan;
+    padding: 1%;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+.submit-btn {
+    background-color: cyan;
+    color: black;
+    padding: 2%;
+    font-size: 22px;
+    margin-top: 10px;
+    border: 2px solid cyan;
+    cursor: pointer;
+}
+input {
+    padding: 2%;
+}
+@media (min-width: 300px) and (max-width: 500px){
+    form{
+        width: 80%;
+    }
+}
+@media (min-width: 500px) and (max-width: 1000px){
+    label {
+        color:crimson;
+    }
+}
